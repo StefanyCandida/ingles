@@ -5,14 +5,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'roboto',sans-serif;
+    list-style:none;
 }
-body{
-    height: 450vh;
+body{    
     width: 98.5vw;
     background-color: rgb(241, 223, 226);
 }
+
 header{
-    height: 15%;
+    height: 35%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -22,14 +23,85 @@ header{
     background-repeat: no-repeat;
     background-size: 100%; 
     color: brown;
-
+}
+.headerhome{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 8rem;
+    background-image: url(./img/ada\ header2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    color: brown;
+}
+.navheader{
+    position: relative;
+    left: 51%;
+    top: 1%;
+    font-size: 3.8rem;
+    width: 60vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navfoto{
+    position: relative;
+    left: 51%;
+    top: 1%;
+    font-size: 3.8rem;
+    width: 70vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navsobre{
+    position: relative;
+    left: 40%;
+    bottom: 92%;
+    font-size: 3.8rem;
+    width: 60vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  li{
+    display:inline;    
+   
+  }
+  li:hover{
+    cursor:pointer;
+    font-weight:900;
+  }
+a{
+    text-decoration: none;
+    color:#d81196;
+    
 }
 main{
   height: 85%;
-  width: 100%;
- 
+  width: 100%; 
  
 }
+li{   
+    list-style: none;
+
+}
+.multimidia{
+    width:90%;
+    height: 20%;
+    margin:5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; 
+  }
+.foto{
+    border:solid white;
+}
+
 .texto{
     width: 90%;
     margin:5%;
