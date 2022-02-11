@@ -9,9 +9,7 @@
 }
 body{    
     width: 98.5vw;
-    background-color: rgb(241, 223, 226);
-}
-
+    background-color: rgb(241, 223, 226);}
 header{
     height: 35%;
     width: 100%;
@@ -22,8 +20,7 @@ header{
     background-image: url(./img/ada\ header2.jpg);
     background-repeat: no-repeat;
     background-size: 100%; 
-    color: brown;
-}
+    color: brown;}
 .headerhome{
     height: 95vh;
     width: 100%;
@@ -33,9 +30,8 @@ header{
     background-image: url(./img/ada\ header2.jpg);
     background-repeat: no-repeat;
     background-size: 100%; 
-    color: brown;
-}
-.navheader{
+    color: brown;}
+.navhome{
     position: relative;
     left: 51%;
     top: 1%;
@@ -44,8 +40,7 @@ header{
     height: 5vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-  }
+    justify-content: space-between;  }
   .navfoto{
     position: relative;
     left: 51%;
@@ -55,8 +50,7 @@ header{
     height: 35vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-  }
+    justify-content: space-between; }
   .navsobre{
     position: relative;
     left: 40%;
@@ -65,11 +59,9 @@ header{
     width: 60vw;
     height: 35vh;
     display: flex;
-    align-items: center;
-  }
-  
+    align-items: center; } 
   li{
-    display:inline;    
+    display:inline;   
    
   }
   li:hover{
@@ -78,8 +70,7 @@ header{
   }
 a{
     text-decoration: none;
-    color:#d81196;
-    
+    color:#d81196;    
 }
 main{
   height: 85%;
@@ -91,15 +82,16 @@ li{
 
 }
 .multimidia{
-    width:90%;
+    width:100%;
     height: 20%;
     margin:5%;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap; 
+    b
   }
 .foto{
-    border:solid white;
+    border: 51px solid  rgb(241, 223, 226) ;
 }
 
 .texto{
@@ -138,4 +130,142 @@ footer{
   align-items: center;
   justify-content: center;
   background-color: pink;  
+}
+@media(max-width: 425px) { 
+    body{    
+        width: 100vw;
+        background-color: rgb(241, 223, 226);}
+       
+        .headerhome{
+            height: 80vh;
+            width: %;
+            display: flex;
+            flex-direction: column;
+            font-size: 3rem;
+            background-image: url(./img/ada\ header2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%; 
+            color: brown;}
+        .navhome{
+            position: relative;
+            left: 11%;
+            font-size: 1.8rem;
+            width: 80vw;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;  }
+            h1{
+                margin:30px ;
+
+            }
+    .headerfoto{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;       
+        color: brown;
+    }
+          .navfoto{
+            position: relative;
+            left: 21%;
+            top: 1%;
+            font-size: 1.8rem;
+            width: 80vw;
+            height: 35vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; }
+
+            .headersobre{
+                height: 70vh;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                font-size: 3rem;       
+                color: brown;
+            }
+
+          .navsobre{
+            position: relative;
+            left: 15%;
+            top: 1%;
+            font-size: 1.8rem;
+            width: 80vw;
+            height: 35vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; } 
+          li{
+            display:inline;   
+           
+          }
+          li:hover{
+            cursor:pointer;
+            font-weight:900;
+          }
+        a{
+            text-decoration: none;
+            color:#d81196;    
+        }
+        li{   
+            list-style: none;
+        
+        }
+        .multimidia{
+            width:95%;
+            height: 20%;
+            margin:5%;
+            display: flex;
+            flex-direction: column;
+          }
+        .foto{
+            border: 51px solid  rgb(241, 223, 226) ;
+        }
+        
+        .texto{
+            width: 90%;
+            margin:5%;
+            text-align:right; 
+            font-size: 1.5rem;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .texttwo{
+            width: 90%;
+            margin:5%;
+            font-size: 1.2rem;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            flex-direction: column;
+        
+        }
+        h3{
+            text-align:center; 
+            font-size: 1.5rem;
+        }
+        .fotos{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+        }
+        .mainresp{
+            height: 85%;
+            width: 80%;           
+        
+
+        }
+        footer{
+            height: 5%;
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: pink;  
+        }
+
 }
